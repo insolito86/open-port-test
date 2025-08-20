@@ -7,13 +7,13 @@ int port = 35000;
 Thread servidorThread = new Thread(() => IniciarServidor(port));
 servidorThread.Start();
 
-Thread.Sleep(3000);
+//Thread.Sleep(3000);
 
 // Inicia o cliente
 //IniciarCliente("177.195.70.63", port);
 
-Console.WriteLine("Pressione qualquer tecla para sair...");
-Console.ReadKey();
+//Console.WriteLine("Pressione qualquer tecla para sair...");
+//Console.ReadKey();
 
 static void IniciarServidor(int porta)
 {
